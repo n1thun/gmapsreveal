@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-	<title>Google Maps Android APIs - Nithun</title>
+	<title>Google Map Android APIs - Nithun</title>
 
 	<link rel="stylesheet" href="css/reveal.css">
 	<link rel="stylesheet" href="css/theme/black.css">
@@ -28,7 +28,7 @@
 		<div class="slides">
 
 			<section>
-				<h1>Google Maps APIs</h1>
+				<h1>Google Map APIs</h1>
 				<h3>SE 491 </h3>
 				<p>
 					<small>Created by <a href="http://www.nithun.com">Nithun Harikrishnan</a> / <a href="http://twitter.com/nithun">@nithun</a></small>
@@ -128,24 +128,17 @@
 			    public void onMapReady(GoogleMap googleMap) {
 			        // Add a marker in Sydney, Australia,
 			        // and move the map's camera to the same location.
-			        LatLng sydney = new LatLng(-33.852, 151.211);
-			        googleMap.addMarker(new MarkerOptions().position(sydney)
-			                .title("Marker in Sydney"));
+			        LatLng washington = new LatLng(-33.852, 151.211);
+			        googleMap.addMarker(new MarkerOptions().position(washington)
+			                .title("Washigton"));
 			        googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
 			    }
 				</code></pre>
 			</section>
 
-
-
-
 			<section>
-				<h2>initialize map</h2>
-				<ul>
-					<li>initialize map</li>
-					<li>Permissions</li>
-					<li>Add Map fragmement</li>
-				</ul>
+				<h2>Map with marker</h2>
+					<img data-src="img/map_wash.png" height="450">
 			</section>
 
 		</div>

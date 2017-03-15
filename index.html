@@ -126,12 +126,11 @@
 				<pre><code class="hljs" data-trim contenteditable>
 					@Override
 			    public void onMapReady(GoogleMap googleMap) {
-			        // Add a marker in Sydney, Australia,
-			        // and move the map's camera to the same location.
+
 			        LatLng washington = new LatLng(-33.852, 151.211);
 			        googleMap.addMarker(new MarkerOptions().position(washington)
 			                .title("Washigton"));
-			        googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+			        googleMap.moveCamera(CameraUpdateFactory.newLatLng(washington));
 			    }
 				</code></pre>
 			</section>
@@ -163,7 +162,7 @@
 			<section>
 				<h2>Questions?</h2>
 			</section>
-			
+
 		</div>
 	</div>
 
